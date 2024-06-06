@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="pt-[21px] pr-[21px]">
+        <div class="flex justify-between text-center">
+            <div class="pt-[69px]">
+                <div class="pb-[56px]">
+                    <img src="../images/Music.png" alt="">
+                </div>
+                <div class="poppins-bold text-left grid grid-rows-6 gap-[21px]">
+                    <div class="flex pl-[21px] space-x-4 bg-[#f8f8f8] py-4 rounded-r-md border-l-8 border-l-rounded-r-md border-[#950c19]">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="fill-[#950c19]">
+                            <path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path>
+                        </svg>
+                        <h3>Home</h3>
+                    </div>
+                    <div class="flex pl-[21px] space-x-4">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="fill-[#950c19]" >
+                            <path d="M576 240c0-23.63-12.95-44.04-32-55.12V32.01C544 23.26 537.02 0 512 0c-7.12 0-14.19 2.38-19.98 7.02l-85.03 68.03C364.28 109.19 310.66 128 256 128H64c-35.35 0-64 28.65-64 64v96c0 35.35 28.65 64 64 64h33.7c-1.39 10.48-2.18 21.14-2.18 32 0 39.77 9.26 77.35 25.56 110.94 5.19 10.69 16.52 17.06 28.4 17.06h74.28c26.05 0 41.69-29.84 25.9-50.56-16.4-21.52-26.15-48.36-26.15-77.44 0-11.11 1.62-21.79 4.41-32H256c54.66 0 108.28 18.81 150.98 52.95l85.03 68.03a32.023 32.023 0 0 0 19.98 7.02c24.92 0 32-22.78 32-32V295.13C563.05 284.04 576 263.63 576 240zm-96 141.42l-33.05-26.44C392.95 311.78 325.12 288 256 288v-96c69.12 0 136.95-23.78 190.95-66.98L480 98.58v282.84z"></path>
+                        </svg>
+                        <h3>New Releases</h3>
+                    </div>
+                    <div class="flex pl-[21px] space-x-4">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="fill-[#950c19]" >
+                            <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                        </svg>
+                        <h3>Channels</h3>
+                    </div>
+                    <div class="flex pl-[21px] space-x-4">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="fill-[#950c19]">
+                            <path d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z"></path>
+                        </svg>
+                        <h3>Videos</h3>
+                    </div>
+                    <div class="flex pl-[21px] space-x-4">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="fill-[#950c19]">
+                            <path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14.5c-2.49 0-4.5-2.01-4.5-4.5S9.51 7.5 12 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5zm0-5.5c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                        </svg>
+                        <h3>Albums</h3>
+                    </div>
+                    <div class="flex pl-[21px] space-x-4">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="fill-[#950c19]"><g id="Stream_On"><g>
+                            <path d="M6.26,19.089A9.625,9.625,0,0,1,6.234,4.911C6.709,4.475,6,3.769,5.527,4.2A10.516,10.516,0,0,0,5.553,19.8c.475.433,1.184-.273.707-.707Z"></path><path d="M8.84,15.706a5.024,5.024,0,0,1-.014-7.412c.474-.437-.234-1.143-.707-.707a6.028,6.028,0,0,0,.014,8.826c.474.434,1.183-.272.707-.707Z"></path><circle cx="12" cy="12" r="1.244"></circle><path d="M17.74,4.911a9.625,9.625,0,0,1,.026,14.178c-.475.436.234,1.142.707.707A10.516,10.516,0,0,0,18.447,4.2c-.475-.433-1.184.273-.707.707Z"></path><path d="M15.16,8.294a5.024,5.024,0,0,1,.014,7.412c-.474.437.234,1.143.707.707a6.028,6.028,0,0,0-.014-8.826c-.474-.434-1.183.272-.707.707Z"></path></g></g>
+                        </svg>
+                        <h3>Streams</h3>
+                    </div>
+                    <div class="flex pl-[21px] space-x-4">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="fill-[#950c19]">
+                            <path d="M88 216c81.7 10.2 273.7 102.3 304 232H0c99.5-8.1 184.5-137 88-232zm32-152c32.3 35.6 47.7 83.9 46.4 133.6C249.3 231.3 373.7 321.3 400 448h96C455.3 231.9 222.8 79.5 120 64z"></path>
+                        </svg>
+                        <h3>Services</h3>
+                    </div>
+                </div>
+                <div class="pt-[56px] pl-[10px]">
+                    <div class="flex pl-[21px] space-x-4 bg-[#f8f8f8] rounded-md p-[10px] items-center poppins-bold">
+                        <div class="bg-black text-white rounded-full p-[15px]">
+                            <p></p>
+                        </div>
+                        <h3 class="text-[#6b737a]">Shaloimy</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[30px] bg-[#f8f8f8]">
+                <div class="flex items-center text-justify">
+                    <div class="pl-[80px]">
+                        <h3 class="font-semibold pb-[6px] text-[40px] text-[#182026] poppins-bold">Vayomer Solachti</h3>
+                        <p class="text-[#6b737a] pb-[22px] text-[17px] poppins-bold">Ari Hill, Motty Weisel & Shaya Gross</p>
+                        <button class="rounded-md bg-[#950c19] py-[18px] pl-[53px] pr-[41px] text-[17px] poppins-bold text-[#ffffff] flex items-center ">View <span class="pl-[12px]"><svg xmlns="http://www.w3.org/2000/svg" width="14.875" height="13.204" viewBox="0 0 14.875 13.204">
+                            <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M6.324,3.532l.737-.671a.849.849,0,0,1,1.125,0l6.454,5.875a.678.678,0,0,1,0,1.025L8.187,15.638a.849.849,0,0,1-1.125,0l-.737-.671a.682.682,0,0,1,.013-1.037l4-3.471H.8A.762.762,0,0,1,0,9.733V8.766A.762.762,0,0,1,.8,8.04h9.541l-4-3.471A.678.678,0,0,1,6.324,3.532Z" transform="translate(0 -2.647)" fill="#f4f4f4"/>
+                            </svg></span>
+                        </button>
+                    </div>
+                    <div class="flex bg-[url('../images/CdG7AhEyBUkhd.png')] rounded-[30px]">
+                        <div class="relative right-[1px] rounded-[30px] py-[300px] px-[600px] bg-gradient-to-r from-[#f8f8f8] to-[#f8f8f8]-0">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-center pt-[42px] gap-[5px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
+                            <g id="Ellipse_1" data-name="Ellipse 1" fill="none" stroke="#6b737a" stroke-width="1">
+                              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+                              <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+                            </g>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-[#6b737a]" width="31" height="9" viewBox="0 0 31 9">
+                            <defs>
+                                <linearGradient x1="55%" y1="50%" x2="45%" y2="50%" id="a">
+                                  <stop offset="0%" stop-color="currentColor" />
+                                  <stop stop-opacity="0" offset="100%" stop-color="white" />
+                                </linearGradient>
+                            </defs>
+                            <g id="Rectangle_260" data-name="Rectangle 260" fill="url(#a)" stroke="#707070" stroke-width="1">
+                              <rect width="31" height="9" rx="4.5" stroke="none"/>
+                              <rect x="0.5" y="0.5" width="30" height="8" rx="4" fill="none"/>
+                            </g>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
+                            <g id="Ellipse_1" data-name="Ellipse 1" fill="none" stroke="#6b737a" stroke-width="1">
+                              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+                              <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+                            </g>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
+                            <g id="Ellipse_1" data-name="Ellipse 1" fill="none" stroke="#6b737a" stroke-width="1">
+                              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+                              <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                
+                <section class="px-[91.5px]">
+                    <div class="pt-[64px] flex justify-between poppins-bold text-[#6b737a]">
+                        <h3 class="text-[35px]">New Releases</h3>
+                        <div class="flex items-center text-justify">
+                            <p class="text-[17px] pr-[17px]">View All</p>
+                            <div class="flex items-center gap-[9px]">
+                                <div class="bg-white rounded-full p-[14px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.875" height="13.204" viewBox="0 0 14.875 13.204" class="rotate-180">
+                                        <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M6.324,3.532l.737-.671a.849.849,0,0,1,1.125,0l6.454,5.875a.678.678,0,0,1,0,1.025L8.187,15.638a.849.849,0,0,1-1.125,0l-.737-.671a.682.682,0,0,1,.013-1.037l4-3.471H.8A.762.762,0,0,1,0,9.733V8.766A.762.762,0,0,1,.8,8.04h9.541l-4-3.471A.678.678,0,0,1,6.324,3.532Z" transform="translate(0 -2.647)" fill="#6b737a"/>
+                                    </svg>
+                                </div>
+                                <div class="bg-white rounded-full p-[14px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.875" height="13.204" viewBox="0 0 14.875 13.204">
+                                        <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M6.324,3.532l.737-.671a.849.849,0,0,1,1.125,0l6.454,5.875a.678.678,0,0,1,0,1.025L8.187,15.638a.849.849,0,0,1-1.125,0l-.737-.671a.682.682,0,0,1,.013-1.037l4-3.471H.8A.762.762,0,0,1,0,9.733V8.766A.762.762,0,0,1,.8,8.04h9.541l-4-3.471A.678.678,0,0,1,6.324,3.532Z" transform="translate(0 -2.647)" fill="#950c19"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-[32.2px]">
+                            <div class="">
+                                <div class="relative">
+                                    <img class="w-full" src="../images/sg.png" alt="">
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div class="pt-[18px] pl-[17px] text-left pb-[36.7px]">
+                                        <h3 class="poppins-bold text-[17px] text-[#182026]">Yesh Bi Emuna</h3>
+                                        <p class="text-[#6b737a] poppins-bold text-[13px]">Mordechai Shapiro & Shmuel</p>
+                                    </div>
+                                    <hr class="mx-5 pb-[5px]">
+                                    <div class="flex justify-between text-[9px] px-2">
+                                        <div class="flex space-x-2 items-center">
+                                            <svg width="10.921" height="9.632" viewBox="0 0 24 24" fill="#6b737a" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30147 15.5771C4.77832 14.2684 3.6904 12.7726 3.18002 12C3.6904 11.2274 4.77832 9.73158 6.30147 8.42294C7.87402 7.07185 9.81574 6 12 6C14.1843 6 16.1261 7.07185 17.6986 8.42294C19.2218 9.73158 20.3097 11.2274 20.8201 12C20.3097 12.7726 19.2218 14.2684 17.6986 15.5771C16.1261 16.9282 14.1843 18 12 18C9.81574 18 7.87402 16.9282 6.30147 15.5771ZM12 4C9.14754 4 6.75717 5.39462 4.99812 6.90595C3.23268 8.42276 2.00757 10.1376 1.46387 10.9698C1.05306 11.5985 1.05306 12.4015 1.46387 13.0302C2.00757 13.8624 3.23268 15.5772 4.99812 17.0941C6.75717 18.6054 9.14754 20 12 20C14.8525 20 17.2429 18.6054 19.002 17.0941C20.7674 15.5772 21.9925 13.8624 22.5362 13.0302C22.947 12.4015 22.947 11.5985 22.5362 10.9698C21.9925 10.1376 20.7674 8.42276 19.002 6.90595C17.2429 5.39462 14.8525 4 12 4ZM10 12C10 10.8954 10.8955 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8955 14 10 13.1046 10 12ZM12 8C9.7909 8 8.00004 9.79086 8.00004 12C8.00004 14.2091 9.7909 16 12 16C14.2092 16 16 14.2091 16 12C16 9.79086 14.2092 8 12 8Z" fill="#6b737a"/>
+                                            </svg>
+                                            <p>2492</p>
+                                            <div class="flex">
+                                                <div class="flex">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                </div>
+                                                <p>(3)</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-2 pb-[11px]">
+                                            <p>1 Day ago</p>
+                                            <div class="flex space-x-2 items-center">
+                                                <p>5</p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10.921" height="9.632" viewBox="0 0 10.921 9.632">
+                                                    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M9.955,2.027a2.654,2.654,0,0,0-3.754,0l-.512.512-.512-.512A2.655,2.655,0,1,0,1.423,5.782l.512.512,3.754,3.754L9.443,6.293l.512-.512a2.654,2.654,0,0,0,0-3.754Z" transform="translate(-0.229 -0.833)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.833"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <img class="w-full" src="../images/sg_2.png" alt="">
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div class="pt-[18px] pl-[17px] text-left pb-[36.7px]">
+                                        <h3 class="poppins-bold text-[17px] text-[#182026]">Yesh Bi Emuna</h3>
+                                        <p class="text-[#6b737a] poppins-bold text-[13px]">Mordechai Shapiro & Shmuel</p>
+                                    </div>
+                                    <hr class="mx-5 pb-[5px]">
+                                    <div class="flex justify-between text-[9px] px-2">
+                                        <div class="flex space-x-2 items-center">
+                                            <svg width="10.921" height="9.632" viewBox="0 0 24 24" fill="#6b737a" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30147 15.5771C4.77832 14.2684 3.6904 12.7726 3.18002 12C3.6904 11.2274 4.77832 9.73158 6.30147 8.42294C7.87402 7.07185 9.81574 6 12 6C14.1843 6 16.1261 7.07185 17.6986 8.42294C19.2218 9.73158 20.3097 11.2274 20.8201 12C20.3097 12.7726 19.2218 14.2684 17.6986 15.5771C16.1261 16.9282 14.1843 18 12 18C9.81574 18 7.87402 16.9282 6.30147 15.5771ZM12 4C9.14754 4 6.75717 5.39462 4.99812 6.90595C3.23268 8.42276 2.00757 10.1376 1.46387 10.9698C1.05306 11.5985 1.05306 12.4015 1.46387 13.0302C2.00757 13.8624 3.23268 15.5772 4.99812 17.0941C6.75717 18.6054 9.14754 20 12 20C14.8525 20 17.2429 18.6054 19.002 17.0941C20.7674 15.5772 21.9925 13.8624 22.5362 13.0302C22.947 12.4015 22.947 11.5985 22.5362 10.9698C21.9925 10.1376 20.7674 8.42276 19.002 6.90595C17.2429 5.39462 14.8525 4 12 4ZM10 12C10 10.8954 10.8955 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8955 14 10 13.1046 10 12ZM12 8C9.7909 8 8.00004 9.79086 8.00004 12C8.00004 14.2091 9.7909 16 12 16C14.2092 16 16 14.2091 16 12C16 9.79086 14.2092 8 12 8Z" fill="#6b737a"/>
+                                            </svg>
+                                            <p>2492</p>
+                                            <div class="flex">
+                                                <div class="flex">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                </div>
+                                                <p>(3)</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-2 pb-[11px]">
+                                            <p>1 Day ago</p>
+                                            <div class="flex space-x-2 items-center">
+                                                <p>5</p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10.921" height="9.632" viewBox="0 0 10.921 9.632">
+                                                    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M9.955,2.027a2.654,2.654,0,0,0-3.754,0l-.512.512-.512-.512A2.655,2.655,0,1,0,1.423,5.782l.512.512,3.754,3.754L9.443,6.293l.512-.512a2.654,2.654,0,0,0,0-3.754Z" transform="translate(-0.229 -0.833)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.833"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <img class="w-full" src="../images/sg_3.png" alt="">
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div class="pt-[18px] pl-[17px] text-left pb-[36.7px]">
+                                        <h3 class="poppins-bold text-[17px] text-[#182026]">Yesh Bi Emuna</h3>
+                                        <p class="text-[#6b737a] poppins-bold text-[13px]">Mordechai Shapiro & Shmuel</p>
+                                    </div>
+                                    <hr class="mx-5 pb-[5px]">
+                                    <div class="flex justify-between text-[9px] px-2">
+                                        <div class="flex space-x-2 items-center">
+                                            <svg width="10.921" height="9.632" viewBox="0 0 24 24" fill="#6b737a" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30147 15.5771C4.77832 14.2684 3.6904 12.7726 3.18002 12C3.6904 11.2274 4.77832 9.73158 6.30147 8.42294C7.87402 7.07185 9.81574 6 12 6C14.1843 6 16.1261 7.07185 17.6986 8.42294C19.2218 9.73158 20.3097 11.2274 20.8201 12C20.3097 12.7726 19.2218 14.2684 17.6986 15.5771C16.1261 16.9282 14.1843 18 12 18C9.81574 18 7.87402 16.9282 6.30147 15.5771ZM12 4C9.14754 4 6.75717 5.39462 4.99812 6.90595C3.23268 8.42276 2.00757 10.1376 1.46387 10.9698C1.05306 11.5985 1.05306 12.4015 1.46387 13.0302C2.00757 13.8624 3.23268 15.5772 4.99812 17.0941C6.75717 18.6054 9.14754 20 12 20C14.8525 20 17.2429 18.6054 19.002 17.0941C20.7674 15.5772 21.9925 13.8624 22.5362 13.0302C22.947 12.4015 22.947 11.5985 22.5362 10.9698C21.9925 10.1376 20.7674 8.42276 19.002 6.90595C17.2429 5.39462 14.8525 4 12 4ZM10 12C10 10.8954 10.8955 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8955 14 10 13.1046 10 12ZM12 8C9.7909 8 8.00004 9.79086 8.00004 12C8.00004 14.2091 9.7909 16 12 16C14.2092 16 16 14.2091 16 12C16 9.79086 14.2092 8 12 8Z" fill="#6b737a"/>
+                                            </svg>
+                                            <p>2492</p>
+                                            <div class="flex">
+                                                <div class="flex">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                </div>
+                                                <p>(3)</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-2 pb-[11px]">
+                                            <p>1 Day ago</p>
+                                            <div class="flex space-x-2 items-center">
+                                                <p>5</p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10.921" height="9.632" viewBox="0 0 10.921 9.632">
+                                                    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M9.955,2.027a2.654,2.654,0,0,0-3.754,0l-.512.512-.512-.512A2.655,2.655,0,1,0,1.423,5.782l.512.512,3.754,3.754L9.443,6.293l.512-.512a2.654,2.654,0,0,0,0-3.754Z" transform="translate(-0.229 -0.833)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.833"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <img class="w-full" src="../images/sg_4.png" alt="">
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div class="pt-[18px] pl-[17px] text-left pb-[36.7px]">
+                                        <h3 class="poppins-bold text-[17px] text-[#182026]">Yesh Bi Emuna</h3>
+                                        <p class="text-[#6b737a] poppins-bold text-[13px]">Mordechai Shapiro & Shmuel</p>
+                                    </div>
+                                    <hr class="mx-5 pb-[5px]">
+                                    <div class="flex justify-between text-[9px] px-2">
+                                        <div class="flex space-x-2 items-center">
+                                            <svg width="10.921" height="9.632" viewBox="0 0 24 24" fill="#6b737a" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30147 15.5771C4.77832 14.2684 3.6904 12.7726 3.18002 12C3.6904 11.2274 4.77832 9.73158 6.30147 8.42294C7.87402 7.07185 9.81574 6 12 6C14.1843 6 16.1261 7.07185 17.6986 8.42294C19.2218 9.73158 20.3097 11.2274 20.8201 12C20.3097 12.7726 19.2218 14.2684 17.6986 15.5771C16.1261 16.9282 14.1843 18 12 18C9.81574 18 7.87402 16.9282 6.30147 15.5771ZM12 4C9.14754 4 6.75717 5.39462 4.99812 6.90595C3.23268 8.42276 2.00757 10.1376 1.46387 10.9698C1.05306 11.5985 1.05306 12.4015 1.46387 13.0302C2.00757 13.8624 3.23268 15.5772 4.99812 17.0941C6.75717 18.6054 9.14754 20 12 20C14.8525 20 17.2429 18.6054 19.002 17.0941C20.7674 15.5772 21.9925 13.8624 22.5362 13.0302C22.947 12.4015 22.947 11.5985 22.5362 10.9698C21.9925 10.1376 20.7674 8.42276 19.002 6.90595C17.2429 5.39462 14.8525 4 12 4ZM10 12C10 10.8954 10.8955 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8955 14 10 13.1046 10 12ZM12 8C9.7909 8 8.00004 9.79086 8.00004 12C8.00004 14.2091 9.7909 16 12 16C14.2092 16 16 14.2091 16 12C16 9.79086 14.2092 8 12 8Z" fill="#6b737a"/>
+                                            </svg>
+                                            <p>2492</p>
+                                            <div class="flex">
+                                                <div class="flex">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                </div>
+                                                <p>(3)</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-2 pb-[11px]">
+                                            <p>1 Day ago</p>
+                                            <div class="flex space-x-2 items-center">
+                                                <p>5</p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10.921" height="9.632" viewBox="0 0 10.921 9.632">
+                                                    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M9.955,2.027a2.654,2.654,0,0,0-3.754,0l-.512.512-.512-.512A2.655,2.655,0,1,0,1.423,5.782l.512.512,3.754,3.754L9.443,6.293l.512-.512a2.654,2.654,0,0,0,0-3.754Z" transform="translate(-0.229 -0.833)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.833"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="px-[91.5px] pt-[62px]">
+                    <div class="pt-[64px] flex justify-between poppins-bold text-[#6b737a]">
+                        <h3 class="text-[35px]">Trending</h3>
+                        <div class="items-center text-justify">
+                            <div class="flex items-center gap-[9px]">
+                                <div class="bg-white rounded-full p-[14px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.875" height="13.204" viewBox="0 0 14.875 13.204" class="rotate-180">
+                                        <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M6.324,3.532l.737-.671a.849.849,0,0,1,1.125,0l6.454,5.875a.678.678,0,0,1,0,1.025L8.187,15.638a.849.849,0,0,1-1.125,0l-.737-.671a.682.682,0,0,1,.013-1.037l4-3.471H.8A.762.762,0,0,1,0,9.733V8.766A.762.762,0,0,1,.8,8.04h9.541l-4-3.471A.678.678,0,0,1,6.324,3.532Z" transform="translate(0 -2.647)" fill="#6b737a"/>
+                                    </svg>
+                                </div>
+                                <div class="bg-white rounded-full p-[14px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.875" height="13.204" viewBox="0 0 14.875 13.204">
+                                        <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M6.324,3.532l.737-.671a.849.849,0,0,1,1.125,0l6.454,5.875a.678.678,0,0,1,0,1.025L8.187,15.638a.849.849,0,0,1-1.125,0l-.737-.671a.682.682,0,0,1,.013-1.037l4-3.471H.8A.762.762,0,0,1,0,9.733V8.766A.762.762,0,0,1,.8,8.04h9.541l-4-3.471A.678.678,0,0,1,6.324,3.532Z" transform="translate(0 -2.647)" fill="#950c19"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-[32.2px]">
+                            <div class="">
+                                <div class="relative">
+                                    <img class="w-full" src="../images/QF-uh0fSV7shd.png" alt="">
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div class="pt-[18px] pl-[17px] text-left pb-[36.7px]">
+                                        <h3 class="poppins-bold text-[17px] text-[#182026]">Shloime Gertner</h3>
+                                        <p class="text-[#6b737a] poppins-bold text-[13px]">Boruch Hashem It's Shabbos</p>
+                                    </div>
+                                    <hr class="mx-5 pb-[5px]">
+                                    <div class="flex justify-between text-[9px] px-2">
+                                        <div class="flex space-x-2 items-center">
+                                            <svg width="10.921" height="9.632" viewBox="0 0 24 24" fill="#6b737a" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30147 15.5771C4.77832 14.2684 3.6904 12.7726 3.18002 12C3.6904 11.2274 4.77832 9.73158 6.30147 8.42294C7.87402 7.07185 9.81574 6 12 6C14.1843 6 16.1261 7.07185 17.6986 8.42294C19.2218 9.73158 20.3097 11.2274 20.8201 12C20.3097 12.7726 19.2218 14.2684 17.6986 15.5771C16.1261 16.9282 14.1843 18 12 18C9.81574 18 7.87402 16.9282 6.30147 15.5771ZM12 4C9.14754 4 6.75717 5.39462 4.99812 6.90595C3.23268 8.42276 2.00757 10.1376 1.46387 10.9698C1.05306 11.5985 1.05306 12.4015 1.46387 13.0302C2.00757 13.8624 3.23268 15.5772 4.99812 17.0941C6.75717 18.6054 9.14754 20 12 20C14.8525 20 17.2429 18.6054 19.002 17.0941C20.7674 15.5772 21.9925 13.8624 22.5362 13.0302C22.947 12.4015 22.947 11.5985 22.5362 10.9698C21.9925 10.1376 20.7674 8.42276 19.002 6.90595C17.2429 5.39462 14.8525 4 12 4ZM10 12C10 10.8954 10.8955 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8955 14 10 13.1046 10 12ZM12 8C9.7909 8 8.00004 9.79086 8.00004 12C8.00004 14.2091 9.7909 16 12 16C14.2092 16 16 14.2091 16 12C16 9.79086 14.2092 8 12 8Z" fill="#6b737a"/>
+                                            </svg>
+                                            <p>2492</p>
+                                            <div class="flex">
+                                                <div class="flex">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                </div>
+                                                <p>(3)</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-2 pb-[11px]">
+                                            <p>1 Day ago</p>
+                                            <div class="flex space-x-2 items-center">
+                                                <p>5</p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10.921" height="9.632" viewBox="0 0 10.921 9.632">
+                                                    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M9.955,2.027a2.654,2.654,0,0,0-3.754,0l-.512.512-.512-.512A2.655,2.655,0,1,0,1.423,5.782l.512.512,3.754,3.754L9.443,6.293l.512-.512a2.654,2.654,0,0,0,0-3.754Z" transform="translate(-0.229 -0.833)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.833"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <img class="w-full" src="../images/QF-uh0fSV7shd.png" alt="">
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div class="pt-[18px] pl-[17px] text-left pb-[36.7px]">
+                                        <h3 class="poppins-bold text-[17px] text-[#182026]">Shloime Gertner</h3>
+                                        <p class="text-[#6b737a] poppins-bold text-[13px]">Boruch Hashem It's Shabbos</p>
+                                    </div>
+                                    <hr class="mx-5 pb-[5px]">
+                                    <div class="flex justify-between text-[9px] px-2">
+                                        <div class="flex space-x-2 items-center">
+                                            <svg width="10.921" height="9.632" viewBox="0 0 24 24" fill="#6b737a" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30147 15.5771C4.77832 14.2684 3.6904 12.7726 3.18002 12C3.6904 11.2274 4.77832 9.73158 6.30147 8.42294C7.87402 7.07185 9.81574 6 12 6C14.1843 6 16.1261 7.07185 17.6986 8.42294C19.2218 9.73158 20.3097 11.2274 20.8201 12C20.3097 12.7726 19.2218 14.2684 17.6986 15.5771C16.1261 16.9282 14.1843 18 12 18C9.81574 18 7.87402 16.9282 6.30147 15.5771ZM12 4C9.14754 4 6.75717 5.39462 4.99812 6.90595C3.23268 8.42276 2.00757 10.1376 1.46387 10.9698C1.05306 11.5985 1.05306 12.4015 1.46387 13.0302C2.00757 13.8624 3.23268 15.5772 4.99812 17.0941C6.75717 18.6054 9.14754 20 12 20C14.8525 20 17.2429 18.6054 19.002 17.0941C20.7674 15.5772 21.9925 13.8624 22.5362 13.0302C22.947 12.4015 22.947 11.5985 22.5362 10.9698C21.9925 10.1376 20.7674 8.42276 19.002 6.90595C17.2429 5.39462 14.8525 4 12 4ZM10 12C10 10.8954 10.8955 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8955 14 10 13.1046 10 12ZM12 8C9.7909 8 8.00004 9.79086 8.00004 12C8.00004 14.2091 9.7909 16 12 16C14.2092 16 16 14.2091 16 12C16 9.79086 14.2092 8 12 8Z" fill="#6b737a"/>
+                                            </svg>
+                                            <p>2492</p>
+                                            <div class="flex">
+                                                <div class="flex">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                </div>
+                                                <p>(3)</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-2 pb-[11px]">
+                                            <p>1 Day ago</p>
+                                            <div class="flex space-x-2 items-center">
+                                                <p>5</p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10.921" height="9.632" viewBox="0 0 10.921 9.632">
+                                                    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M9.955,2.027a2.654,2.654,0,0,0-3.754,0l-.512.512-.512-.512A2.655,2.655,0,1,0,1.423,5.782l.512.512,3.754,3.754L9.443,6.293l.512-.512a2.654,2.654,0,0,0,0-3.754Z" transform="translate(-0.229 -0.833)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.833"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <img class="w-full" src="../images/QF-uh0fSV7shd.png" alt="">
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div class="pt-[18px] pl-[17px] text-left pb-[36.7px]">
+                                        <h3 class="poppins-bold text-[17px] text-[#182026]">Shloime Gertner</h3>
+                                        <p class="text-[#6b737a] poppins-bold text-[13px]">Boruch Hashem It's Shabbos</p>
+                                    </div>
+                                    <hr class="mx-5 pb-[5px]">
+                                    <div class="flex justify-between text-[9px] px-2">
+                                        <div class="flex space-x-2 items-center">
+                                            <svg width="10.921" height="9.632" viewBox="0 0 24 24" fill="#6b737a" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30147 15.5771C4.77832 14.2684 3.6904 12.7726 3.18002 12C3.6904 11.2274 4.77832 9.73158 6.30147 8.42294C7.87402 7.07185 9.81574 6 12 6C14.1843 6 16.1261 7.07185 17.6986 8.42294C19.2218 9.73158 20.3097 11.2274 20.8201 12C20.3097 12.7726 19.2218 14.2684 17.6986 15.5771C16.1261 16.9282 14.1843 18 12 18C9.81574 18 7.87402 16.9282 6.30147 15.5771ZM12 4C9.14754 4 6.75717 5.39462 4.99812 6.90595C3.23268 8.42276 2.00757 10.1376 1.46387 10.9698C1.05306 11.5985 1.05306 12.4015 1.46387 13.0302C2.00757 13.8624 3.23268 15.5772 4.99812 17.0941C6.75717 18.6054 9.14754 20 12 20C14.8525 20 17.2429 18.6054 19.002 17.0941C20.7674 15.5772 21.9925 13.8624 22.5362 13.0302C22.947 12.4015 22.947 11.5985 22.5362 10.9698C21.9925 10.1376 20.7674 8.42276 19.002 6.90595C17.2429 5.39462 14.8525 4 12 4ZM10 12C10 10.8954 10.8955 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8955 14 10 13.1046 10 12ZM12 8C9.7909 8 8.00004 9.79086 8.00004 12C8.00004 14.2091 9.7909 16 12 16C14.2092 16 16 14.2091 16 12C16 9.79086 14.2092 8 12 8Z" fill="#6b737a"/>
+                                            </svg>
+                                            <p>2492</p>
+                                            <div class="flex">
+                                                <div class="flex">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                </div>
+                                                <p>(3)</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-2 pb-[11px]">
+                                            <p>1 Day ago</p>
+                                            <div class="flex space-x-2 items-center">
+                                                <p>5</p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10.921" height="9.632" viewBox="0 0 10.921 9.632">
+                                                    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M9.955,2.027a2.654,2.654,0,0,0-3.754,0l-.512.512-.512-.512A2.655,2.655,0,1,0,1.423,5.782l.512.512,3.754,3.754L9.443,6.293l.512-.512a2.654,2.654,0,0,0,0-3.754Z" transform="translate(-0.229 -0.833)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.833"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <img class="w-full" src="../images/QF-uh0fSV7shd.png" alt="">
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div class="pt-[18px] pl-[17px] text-left pb-[36.7px]">
+                                        <h3 class="poppins-bold text-[17px] text-[#182026]">Shloime Gertner</h3>
+                                        <p class="text-[#6b737a] poppins-bold text-[13px]">Boruch Hashem It's Shabbos</p>
+                                    </div>
+                                    <hr class="mx-5 pb-[5px]">
+                                    <div class="flex justify-between text-[9px] px-2">
+                                        <div class="flex space-x-2 items-center">
+                                            <svg width="10.921" height="9.632" viewBox="0 0 24 24" fill="#6b737a" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30147 15.5771C4.77832 14.2684 3.6904 12.7726 3.18002 12C3.6904 11.2274 4.77832 9.73158 6.30147 8.42294C7.87402 7.07185 9.81574 6 12 6C14.1843 6 16.1261 7.07185 17.6986 8.42294C19.2218 9.73158 20.3097 11.2274 20.8201 12C20.3097 12.7726 19.2218 14.2684 17.6986 15.5771C16.1261 16.9282 14.1843 18 12 18C9.81574 18 7.87402 16.9282 6.30147 15.5771ZM12 4C9.14754 4 6.75717 5.39462 4.99812 6.90595C3.23268 8.42276 2.00757 10.1376 1.46387 10.9698C1.05306 11.5985 1.05306 12.4015 1.46387 13.0302C2.00757 13.8624 3.23268 15.5772 4.99812 17.0941C6.75717 18.6054 9.14754 20 12 20C14.8525 20 17.2429 18.6054 19.002 17.0941C20.7674 15.5772 21.9925 13.8624 22.5362 13.0302C22.947 12.4015 22.947 11.5985 22.5362 10.9698C21.9925 10.1376 20.7674 8.42276 19.002 6.90595C17.2429 5.39462 14.8525 4 12 4ZM10 12C10 10.8954 10.8955 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8955 14 10 13.1046 10 12ZM12 8C9.7909 8 8.00004 9.79086 8.00004 12C8.00004 14.2091 9.7909 16 12 16C14.2092 16 16 14.2091 16 12C16 9.79086 14.2092 8 12 8Z" fill="#6b737a"/>
+                                            </svg>
+                                            <p>2492</p>
+                                            <div class="flex">
+                                                <div class="flex">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-yellow-500 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                                    </svg>
+                                                </div>
+                                                <p>(3)</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-2 pb-[11px]">
+                                            <p>1 Day ago</p>
+                                            <div class="flex space-x-2 items-center">
+                                                <p>5</p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10.921" height="9.632" viewBox="0 0 10.921 9.632">
+                                                    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M9.955,2.027a2.654,2.654,0,0,0-3.754,0l-.512.512-.512-.512A2.655,2.655,0,1,0,1.423,5.782l.512.512,3.754,3.754L9.443,6.293l.512-.512a2.654,2.654,0,0,0,0-3.754Z" transform="translate(-0.229 -0.833)" fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.833"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="px-[91.5px] pt-[90px]">
+                    <div class="pt-[64px] flex justify-between poppins-bold text-[#6b737a]">
+                        <h3 class="text-[35px]">New Albums</h3>
+                        <div class="flex items-center text-justify">
+                            <p class="text-[17px] pr-[17px]">View All</p>
+                            <div class="flex items-center gap-[9px]">
+                                <div class="bg-white rounded-full p-[14px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.875" height="13.204" viewBox="0 0 14.875 13.204" class="rotate-180">
+                                        <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M6.324,3.532l.737-.671a.849.849,0,0,1,1.125,0l6.454,5.875a.678.678,0,0,1,0,1.025L8.187,15.638a.849.849,0,0,1-1.125,0l-.737-.671a.682.682,0,0,1,.013-1.037l4-3.471H.8A.762.762,0,0,1,0,9.733V8.766A.762.762,0,0,1,.8,8.04h9.541l-4-3.471A.678.678,0,0,1,6.324,3.532Z" transform="translate(0 -2.647)" fill="#6b737a"/>
+                                    </svg>
+                                </div>
+                                <div class="bg-white rounded-full p-[14px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.875" height="13.204" viewBox="0 0 14.875 13.204">
+                                        <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M6.324,3.532l.737-.671a.849.849,0,0,1,1.125,0l6.454,5.875a.678.678,0,0,1,0,1.025L8.187,15.638a.849.849,0,0,1-1.125,0l-.737-.671a.682.682,0,0,1,.013-1.037l4-3.471H.8A.762.762,0,0,1,0,9.733V8.766A.762.762,0,0,1,.8,8.04h9.541l-4-3.471A.678.678,0,0,1,6.324,3.532Z" transform="translate(0 -2.647)" fill="#950c19"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid grid-cols-3 lg:grid-cols-5 gap-5 pt-[32.2px]">
+                            <div class="">
+                                <div class="rounded-[15px] bg-[url('../images/browserpreview_tmp-2_3.png')] w-[272px] h-[272px]">
+                                    <div class="rounded-[15px] backdrop-blur-[5px] w-[272px] h-[272px]"></div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <div class="rounded-[15px] bg-[url('../images/browserpreview_tmp-2_3.png')] w-[272px] h-[272px]"></div>
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <div class="rounded-[15px] bg-[url('../images/browserpreview_tmp-2_3.png')] w-[272px] h-[272px]"></div>
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <div class="rounded-[15px] bg-[url('../images/browserpreview_tmp-2_3.png')] w-[272px] h-[272px]"></div>
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="relative">
+                                    <div class="rounded-[15px] bg-[url('../images/browserpreview_tmp-2_3.png')] w-[272px] h-[272px]"></div>
+                                    <div class="absolute top-[8px] left-[16px] flex space-x-1 items-center backdrop-blur-15 backdrop-opacity-20 backdrop-brightness-15 bg-black/30 bg-blend-multiply px-[14px] py-[6px] rounded-md">
+                                        <p class="text-[10px] text-white poppins-bold">Free</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+                                            <defs>
+                                              <clipPath id="clip-path">
+                                                <rect id="Rectangle_133" data-name="Rectangle 133" width="10" height="10" transform="translate(952 392)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              </clipPath>
+                                            </defs>
+                                            <g id="Group_133" data-name="Group 133" transform="translate(-952 -392)" clip-path="url(#clip-path)">
+                                              <path id="Path_249" data-name="Path 249" d="M959.8,399.371a1.22,1.22,0,0,0,1.726,0h0l1.306-1.306a.407.407,0,0,0-.575-.574l-1.19,1.191,0-6.275a.407.407,0,1,0-.814,0l0,6.267-1.184-1.183a.407.407,0,0,0-.575.576Z" transform="translate(-3.781)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                              <path id="Path_250" data-name="Path 250" d="M961.356,408a.407.407,0,0,0-.407.407v1.627a.407.407,0,0,1-.407.407H953.22a.407.407,0,0,1-.407-.407v-1.627a.407.407,0,0,0-.813,0v1.627a1.22,1.22,0,0,0,1.22,1.22h7.322a1.22,1.22,0,0,0,1.22-1.22v-1.627A.407.407,0,0,0,961.356,408Z" transform="translate(0 -9.492)" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0.5"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="px-[91.5px] pt-[90px]">
+                    <div class="pt-[64px] flex justify-between poppins-bold text-[#6b737a]">
+                        <h3 class="text-[35px]">New Channels</h3>
+                        <div class="flex items-center text-justify">
+                            <p class="text-[17px] pr-[17px]">View All</p>
+                            <div class="flex items-center gap-[9px]">
+                                <div class="bg-white rounded-full p-[14px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.875" height="13.204" viewBox="0 0 14.875 13.204" class="rotate-180">
+                                        <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M6.324,3.532l.737-.671a.849.849,0,0,1,1.125,0l6.454,5.875a.678.678,0,0,1,0,1.025L8.187,15.638a.849.849,0,0,1-1.125,0l-.737-.671a.682.682,0,0,1,.013-1.037l4-3.471H.8A.762.762,0,0,1,0,9.733V8.766A.762.762,0,0,1,.8,8.04h9.541l-4-3.471A.678.678,0,0,1,6.324,3.532Z" transform="translate(0 -2.647)" fill="#6b737a"/>
+                                    </svg>
+                                </div>
+                                <div class="bg-white rounded-full p-[14px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.875" height="13.204" viewBox="0 0 14.875 13.204">
+                                        <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M6.324,3.532l.737-.671a.849.849,0,0,1,1.125,0l6.454,5.875a.678.678,0,0,1,0,1.025L8.187,15.638a.849.849,0,0,1-1.125,0l-.737-.671a.682.682,0,0,1,.013-1.037l4-3.471H.8A.762.762,0,0,1,0,9.733V8.766A.762.762,0,0,1,.8,8.04h9.541l-4-3.471A.678.678,0,0,1,6.324,3.532Z" transform="translate(0 -2.647)" fill="#950c19"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid grid-cols-3 lg:grid-cols-6 gap-6 pt-[32.2px]">
+                            <div class="">
+                                <img class="w-full rounded-full" src="../images/mini_man.png" alt="">
+                                <div class="poppins-bold pt-[17px]">
+                                    <h2>Avraham Fried</h2>
+                                </div>
+                            </div>
+                            <div class="">
+                                <img class="w-full rounded-full" src="../images/mini_man.png" alt="">
+                                <div class="poppins-bold pt-[17px]">
+                                    <h2>Avraham Fried</h2>
+                                </div>
+                            </div>
+                            <div class="">
+                                <img class="w-full rounded-full" src="../images/mini_man.png" alt="">
+                                <div class="poppins-bold pt-[17px]">
+                                    <h2>Avraham Fried</h2>
+                                </div>
+                            </div>
+                            <div class="">
+                                <img class="w-full rounded-full" src="../images/mini_man.png" alt="">
+                                <div class="poppins-bold pt-[17px]">
+                                    <h2>Avraham Fried</h2>
+                                </div>
+                            </div>
+                            <div class="">
+                                <img class="w-full rounded-full" src="../images/mini_man.png" alt="">
+                                <div class="poppins-bold pt-[17px]">
+                                    <h2>Avraham Fried</h2>
+                                </div>
+                            </div>
+                            <div class="">
+                                <img class="w-full rounded-full" src="../images/mini_man.png" alt="">
+                                <div class="poppins-bold pt-[17px]">
+                                    <h2>Avraham Fried</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section class="bg-[#182026] poppins-bold text-[17px] -z-30">
+            <h2>Hello</h2>
+            <p class="text-[#6b737a]">Hello too</p>
+        </section>
+        <section>
+            <svg id="Footer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920.5" height="519" viewBox="0 0 1920.5 519">
+                <defs>
+                  <clipPath id="clip-path">
+                    <rect width="138" height="261" fill="none"/>
+                  </clipPath>
+                  <clipPath id="clip-path-2">
+                    <rect width="237" height="175" fill="none"/>
+                  </clipPath>
+                  <clipPath id="clip-path-3">
+                    <rect width="158" height="221" fill="none"/>
+                  </clipPath>
+                  <clipPath id="clip-path-4">
+                    <rect id="Rectangle_147" data-name="Rectangle 147" width="15" height="15" transform="translate(671.961 448)" fill="#6b737a"/>
+                  </clipPath>
+                  <clipPath id="clip-path-5">
+                    <rect id="Rectangle_153" data-name="Rectangle 153" width="16" height="15" transform="translate(1063.634 447.903)" fill="#6b737a"/>
+                  </clipPath>
+                  <clipPath id="clip-path-6">
+                    <rect id="Rectangle_95" data-name="Rectangle 95" width="15" height="15" transform="translate(1008 280)" fill="#6b737a"/>
+                  </clipPath>
+                </defs>
+                <g id="Rectangle_155" data-name="Rectangle 155" fill="#182026" stroke="#707070" stroke-width="1">
+                  <path d="M0,0H1890a30,30,0,0,1,30,30V519a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+                  <path d="M1,.5H1890A29.5,29.5,0,0,1,1919.5,30V518a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+                </g>
+                <path id="Path_255" data-name="Path 255" d="M0,537Z" transform="translate(0 -18)" fill="#182026"/>
+                <path id="Path_254" data-name="Path 254" d="M0,0H1920" transform="translate(0.5 464.5)" fill="none" stroke="#707070" stroke-width="0.5" opacity="0.59"/>
+                <g id="Group_340" data-name="Group 340" transform="translate(-28 -2838.092)">
+                  <g id="Path_256" data-name="Path 256" transform="translate(1317 2961.092)" fill="#f4f4f4" opacity="0.05">
+                    <path d="M 523 67.5 L 34 67.5 C 29.47728538513184 67.5 25.09021377563477 66.61435699462891 20.96042823791504 64.86764526367188 C 16.97135734558105 63.18035888671875 13.38871383666992 60.76485824584961 10.31192874908447 57.68807220458984 C 7.235214233398438 54.61135864257812 4.819643020629883 51.02864456176758 3.132428646087646 47.03956985473633 C 1.385642886161804 42.90985870361328 0.5 38.52271270751953 0.5 34 C 0.5 29.47728538513184 1.385642886161804 25.09014320373535 3.132428646087646 20.96042823791504 C 4.819643020629883 16.97135734558105 7.235214233398438 13.38864326477051 10.31192874908447 10.31192874908447 C 13.38871383666992 7.235142707824707 16.97135734558105 4.819643020629883 20.96042823791504 3.132357120513916 C 25.09021377563477 1.385642886161804 29.47728538513184 0.5 34 0.5 L 523 0.5 C 527.522705078125 0.5 531.9098510742188 1.385642886161804 536.03955078125 3.132357120513916 C 540.0286254882812 4.819643020629883 543.611328125 7.235142707824707 546.6880493164062 10.31192874908447 C 549.7648315429688 13.38864326477051 552.1803588867188 16.97135734558105 553.8676147460938 20.96042823791504 C 555.6143798828125 25.09014320373535 556.5 29.47728538513184 556.5 34 C 556.5 38.52271270751953 555.6143798828125 42.90985870361328 553.8676147460938 47.03956985473633 C 552.1803588867188 51.02864456176758 549.7648315429688 54.61135864257812 546.6880493164062 57.68807220458984 C 543.611328125 60.76485824584961 540.0286254882812 63.18035888671875 536.03955078125 64.86764526367188 C 531.9098510742188 66.61435699462891 527.522705078125 67.5 523 67.5 Z" stroke="none"/>
+                    <path d="M 34 1 C 29.5445556640625 1 25.2230224609375 1.872360229492188 21.15521240234375 3.592857360839844 C 17.2257080078125 5.254928588867188 13.6964111328125 7.634498596191406 10.6654052734375 10.66542816162109 C 7.634521484375 13.69643020629883 5.25494384765625 17.22571563720703 3.59283447265625 21.15521240234375 C 1.87237548828125 25.22299957275391 1 29.54457092285156 1 34 C 1 38.45542907714844 1.87237548828125 42.77700042724609 3.59283447265625 46.84478759765625 C 5.25494384765625 50.77428436279297 7.634521484375 54.30357360839844 10.6654052734375 57.33457183837891 C 13.6964111328125 60.36550140380859 17.2257080078125 62.74507141113281 21.15521240234375 64.40714263916016 C 25.2230224609375 66.12763977050781 29.5445556640625 67 34 67 L 523 67 C 527.4554443359375 67 531.7769775390625 66.12763977050781 535.8447875976562 64.40714263916016 C 539.7742919921875 62.74507141113281 543.3035888671875 60.36550140380859 546.3345947265625 57.33457183837891 C 549.365478515625 54.30357360839844 551.7450561523438 50.77428436279297 553.4071655273438 46.84478759765625 C 555.1276245117188 42.77700042724609 556 38.45542907714844 556 34 C 556 29.54457092285156 555.1276245117188 25.22299957275391 553.4071655273438 21.15521240234375 C 551.7450561523438 17.22571563720703 549.365478515625 13.69643020629883 546.3345947265625 10.66542816162109 C 543.3035888671875 7.634498596191406 539.7742919921875 5.254928588867188 535.8447875976562 3.592857360839844 C 531.7769775390625 1.872360229492188 527.4554443359375 1 523 1 L 34 1 M 34 0 L 523 0 C 541.7777099609375 0 557 15.22228622436523 557 34 C 557 52.77771377563477 541.7777099609375 68 523 68 L 34 68 C 15.2222900390625 68 0 52.77771377563477 0 34 C 0 15.22228622436523 15.2222900390625 0 34 0 Z" stroke="none" fill="#707070"/>
+                  </g>
+                  <rect id="Rectangle_142" data-name="Rectangle 142" width="166" height="50" rx="25" transform="translate(1695 2971.092)" fill="#950c19"/>
+                  <text id="Subscribe" transform="translate(1734 3002.092)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Subscribe</tspan></text>
+                  <text id="Enter_Your_Email...." data-name="Enter Your Email...." transform="translate(1355 3002.092)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Enter Your Email....</tspan></text>
+                </g>
+                <text id="Services" transform="translate(960 95)" fill="#f4f4f4" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Services</tspan></text>
+                <text id="Get_Email_Notifications" data-name="Get Email Notifications" transform="translate(1319 95)" fill="#f4f4f4" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Get Email Notifications</tspan></text>
+                <text id="Site_Pages" data-name="Site Pages" transform="translate(705 95)" fill="#f4f4f4" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Site Pages</tspan></text>
+                <text id="Contact_Us" data-name="Contact Us" transform="translate(422 95)" fill="#f4f4f4" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Contact Us</tspan></text>
+                <g id="Repeat_Grid_63" data-name="Repeat Grid 63" transform="translate(705 127)" clip-path="url(#clip-path)">
+                  <g transform="translate(-449 -3028)">
+                    <text id="Home" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Home</tspan></text>
+                  </g>
+                  <g transform="translate(-449 -2982)">
+                    <text id="New_Releases" data-name="New Releases" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">New Releases</tspan></text>
+                  </g>
+                  <g transform="translate(-449 -2936)">
+                    <text id="Channels" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Channels</tspan></text>
+                  </g>
+                  <g transform="translate(-449 -2890)">
+                    <text id="Videos" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Videos</tspan></text>
+                  </g>
+                  <g transform="translate(-449 -2844)">
+                    <text id="Albums" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Albums</tspan></text>
+                  </g>
+                  <g transform="translate(-449 -2798)">
+                    <text id="Live_Stream" data-name="Live Stream" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Live Stream</tspan></text>
+                  </g>
+                </g>
+                <g id="Repeat_Grid_64" data-name="Repeat Grid 64" transform="translate(960 127)" clip-path="url(#clip-path-2)">
+                  <g transform="translate(-449 -3028)">
+                    <text id="Single_Cover_Design" data-name="Single Cover Design" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Single Cover Design</tspan></text>
+                  </g>
+                  <g transform="translate(-449 -2982)">
+                    <text id="Video_Editing" data-name="Video Editing" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Video Editing</tspan></text>
+                  </g>
+                  <g transform="translate(-449 -2936)">
+                    <text id="Album_Art_Design" data-name="Album Art Design" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Album Art Design</tspan></text>
+                  </g>
+                  <g transform="translate(-449 -2890)">
+                    <text id="Youtube_Thumbnail_Design" data-name="Youtube Thumbnail Design" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Youtube Thumbnail Design</tspan></text>
+                  </g>
+                </g>
+                <g id="Group_342" data-name="Group 342" transform="translate(0 -18)">
+                  <g id="Repeat_Grid_62" data-name="Repeat Grid 62" transform="translate(448 141)" clip-path="url(#clip-path-3)">
+                    <g transform="translate(-449 -3028)">
+                      <text id="Leave_A_Message" data-name="Leave A Message" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Leave A Message</tspan></text>
+                    </g>
+                    <g transform="translate(-449 -2982)">
+                      <text id="Report_Video" data-name="Report Video" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Report Video</tspan></text>
+                    </g>
+                    <g transform="translate(-449 -2936)">
+                      <text id="Advertise" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Advertise</tspan></text>
+                    </g>
+                    <g transform="translate(-449 -2890)">
+                      <text id="Post_A_Single" data-name="Post A Single" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Post A Single</tspan></text>
+                    </g>
+                    <g transform="translate(-449 -2844)">
+                      <text id="Help" transform="translate(450 3047)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Help</tspan></text>
+                    </g>
+                  </g>
+                  <g id="Group_147" data-name="Group 147" transform="translate(-248.961 -255)" clip-path="url(#clip-path-4)">
+                    <path id="Path_276" data-name="Path 276" d="M679.48,462.961a7.48,7.48,0,1,0-7.48-7.48A7.481,7.481,0,0,0,679.48,462.961Zm-.623-11.221a.623.623,0,0,1,1.247,0v4.987a.623.623,0,0,1-1.247,0Zm.623,7.48a.623.623,0,1,1-.623.623A.624.624,0,0,1,679.48,459.221Z" fill="#6b737a"/>
+                  </g>
+                  <g id="Group_153" data-name="Group 153" transform="translate(-641.634 -163.903)" clip-path="url(#clip-path-5)">
+                    <path id="Path_287" data-name="Path 287" d="M1073.495,452.372v-4.085a4.338,4.338,0,0,1,1.543.993l2.173,2.177A4.345,4.345,0,0,1,1078.2,453h-4.085a.625.625,0,0,1-.443-.183A.643.643,0,0,1,1073.495,452.372Zm5,2.177v5.318a3.131,3.131,0,0,1-3.123,3.123h-6.246a3.131,3.131,0,0,1-3.123-3.123v-8.744a3.131,3.131,0,0,1,3.123-3.123h2.823c.1,0,.2.008.3.015v4.357a1.875,1.875,0,0,0,1.874,1.874h4.359C1078.485,454.346,1078.491,454.447,1078.491,454.548Zm-3.747,4.069a.643.643,0,0,0-.181-.442.625.625,0,0,0-.443-.183h-1.249v-1.249a.643.643,0,0,0-.181-.442.629.629,0,0,0-.887,0,.642.642,0,0,0-.181.442v1.249h-1.249a.625.625,0,0,0-.443.183.629.629,0,0,0,0,.883.625.625,0,0,0,.443.183h1.249v1.249a.642.642,0,0,0,.181.442.629.629,0,0,0,.887,0,.643.643,0,0,0,.181-.442v-1.249h1.249a.625.625,0,0,0,.443-.183A.643.643,0,0,0,1074.744,458.617Z" transform="translate(-0.751 -0.087)" fill="#6b737a"/>
+                  </g>
+                  <path id="Icon_awesome-question-circle" data-name="Icon awesome-question-circle" d="M15.831,8.2A7.634,7.634,0,1,1,8.2.563,7.634,7.634,0,0,1,15.831,8.2ZM8.4,3.087A3.987,3.987,0,0,0,4.814,5.049a.37.37,0,0,0,.084.5l1.068.81a.369.369,0,0,0,.513-.065c.55-.7.927-1.1,1.764-1.1.629,0,1.407.4,1.407,1.015,0,.461-.381.7-1,1.046-.724.406-1.682.911-1.682,2.175v.123a.369.369,0,0,0,.369.369H9.059a.369.369,0,0,0,.369-.369V9.51c0-.876,2.561-.913,2.561-3.284C11.989,4.441,10.137,3.087,8.4,3.087Zm-.2,7.634a1.416,1.416,0,1,0,1.416,1.416A1.418,1.418,0,0,0,8.2,10.721Z" transform="translate(421.803 330.13)" fill="#6b737a"/>
+                  <path id="megaphone" d="M15.289,10.636a.665.665,0,0,1-.3-.07L13.663,9.9a.665.665,0,1,1,.594-1.19l1.329.665a.665.665,0,0,1-.3,1.26ZM14.256,4.587l1.329-.665a.665.665,0,1,0-.594-1.19L13.662,3.4a.665.665,0,1,0,.594,1.19Zm1.7,2.061a.665.665,0,0,0-.665-.665H13.959a.665.665,0,1,0,0,1.329h1.329A.665.665,0,0,0,15.953,6.647ZM11.965,12.63V.665a.665.665,0,1,0-1.329,0c0,1.96-1.717,2.659-3.324,2.659H2.659A2.659,2.659,0,0,0,0,5.983V7.312A2.659,2.659,0,0,0,2.659,9.971H7.312c1.607,0,3.324.7,3.324,2.659a.665.665,0,0,0,1.329,0ZM5.441,11.3H2.659a3.989,3.989,0,0,1-.919-.111L3.4,14.9a1.775,1.775,0,0,0,1.622,1.054,1.637,1.637,0,0,0,1.49-2.308Z" transform="matrix(0.921, -0.391, 0.391, 0.921, 420.04, 241.455)" fill="#6b737a"/>
+                  <g id="Group_95" data-name="Group 95" transform="translate(-585 -134)" clip-path="url(#clip-path-6)">
+                    <path id="Path_179" data-name="Path 179" d="M1020.424,281.739a7.572,7.572,0,1,0-4.832,13.4h4.4a3.162,3.162,0,0,0,3.154-3.154v-4.892a7.625,7.625,0,0,0-2.725-5.355Zm-7.368,2.676h2.523a.634.634,0,0,1,.448.185.635.635,0,0,1,0,.892.631.631,0,0,1-.448.185h-2.523a.631.631,0,0,1-.448-.185.635.635,0,0,1,0-.892A.634.634,0,0,1,1013.056,284.415Zm5.047,6.309h-5.047a.631.631,0,0,1-.448-.185.635.635,0,0,1,0-.892.634.634,0,0,1,.448-.185h5.047a.634.634,0,0,1,.448.185.635.635,0,0,1,0,.892A.631.631,0,0,1,1018.1,290.723Zm0-2.523h-5.047a.631.631,0,0,1-.448-.185.635.635,0,0,1,0-.892.634.634,0,0,1,.448-.185h5.047a.634.634,0,0,1,.448.185.635.635,0,0,1,0,.892A.631.631,0,0,1,1018.1,288.2Z" transform="translate(-0.009 0.001)" fill="#6b737a"/>
+                  </g>
+                </g>
+                <g id="Group_341" data-name="Group 341" transform="translate(-64 -16)">
+                  <text id="_Music_Table_-_2023" data-name="© Music Table - 2023" transform="translate(1468 512)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="13" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">© Music Table - 2023</tspan></text>
+                  <text id="Web_Design_By_Shloimy_Schreiber" data-name="Web Design By Shloimy Schreiber" transform="translate(1677 512)" fill="#6b737a" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="13" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Web Design By Shloimy Schreiber</tspan></text>
+                  <circle id="Ellipse_25" data-name="Ellipse 25" cx="2" cy="2" r="2" transform="translate(1642 506)" fill="#6b737a"/>
+                </g>
+              </svg>              
+        </section>
+    </section>
+</body>
+</html>
